@@ -7,5 +7,5 @@
 3. npm install  
 4. set up server: open terminal-1 and npm run start-socket-io    
 5. set up client: open terminal-2 and npm start  
-6. open http://localhost:8080/ in browser, click buttons to send data  
+6. open http://localhost:8012 in browser, click buttons to send data  
 7. check the logs of server and front  

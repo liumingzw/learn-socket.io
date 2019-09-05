@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     devtool: 'source-map',
-    entry:  "./app/main.js",
+    entry:  "./client/main.js",
     output: {
         path: __dirname + "/build",
         filename: "bundle.js"
@@ -19,6 +19,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, "build")
+        contentBase: path.join(__dirname, "build"),
+        port: 8012
     }
 };
